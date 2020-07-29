@@ -49899,9 +49899,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/nt1881/play/tweety/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/nt1881/play/tweety/resources/sass/app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/nt1881/play/tweety/resources/css/main.css */"./resources/css/main.css");
+__webpack_require__(/*! C:\Users\NT\play\laravel-tweety-laracasts\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\NT\play\laravel-tweety-laracasts\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\NT\play\laravel-tweety-laracasts\resources\css\main.css */"./resources/css/main.css");
 
 
 /***/ })
