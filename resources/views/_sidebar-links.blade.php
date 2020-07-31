@@ -5,6 +5,8 @@
     <li><a href="/" class="font-bold text-lg mb-4 block">Messages</a></li>
     <li><a href="/" class="font-bold text-lg mb-4 block">Bookmarks</a></li>
     <li><a href="/" class="font-bold text-lg mb-4 block">Lists</a></li>
+    @auth
     <li><a href="{{route('profile', auth()->user())}}" class="font-bold text-lg mb-4 block">Profile</a></li>
+    @endauth
     <li><a href="/" class="font-bold text-lg mb-4 block">More</a></li>
 </ul>

@@ -1,5 +1,5 @@
 <h3 class="font-bold text-xl mb-4">Following</h3>
-
+@auth
 <ul>
     @foreach (auth()->user()->follows as $user)
     <li class="mb-4">
@@ -12,3 +12,4 @@
     </li>
     @endforeach
 </ul>
+@endauth
