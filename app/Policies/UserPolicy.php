@@ -9,13 +9,9 @@ class UserPolicy
 {
     use HandlesAuthorization;
 
-    public function __construct()
+    public function edit(User $currentUser, User $user)
     {
-        //
-    }
-
-    public function edit(User $currentUser, User $user) 
-    {
+        //dd($currentUser->is($user));
         return $currentUser->is($user);
     }
 }
