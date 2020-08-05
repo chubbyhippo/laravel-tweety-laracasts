@@ -3,7 +3,7 @@
         <main class="container mx-auto">
             <div class="lg:flex lg:justify-between">
                 @auth
-                <div class="lg:w-auto">
+                <div class="lg:w-32">
                     @include('_sidebar-links')
                 </div>
                 @endauth
@@ -11,7 +11,7 @@
                     {{$slot}}
                 </div>
                 @auth
-                <div class="lg:w-1/6 bg-blue-100 rounded-lg p-4">
+                <div class="lg:w-1/6">
                     @include('_friends-list')
                 </div>
                 @endauth
