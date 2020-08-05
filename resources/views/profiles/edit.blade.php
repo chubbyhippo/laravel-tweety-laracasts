@@ -32,7 +32,7 @@
                 avatar
             </label>
             <div class="flex">
-                <input type="file" name="avatar" id="avatar" class="p-2 " required>
+                <input type="file" name="avatar" id="avatar" class="p-2 ">
 
                 <img src="{{$user->avatar}}" alt="your avatar" width="40">
             </div>
